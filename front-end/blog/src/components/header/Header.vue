@@ -31,7 +31,6 @@
 
   .header{
     width: 100%;
-    height: 21.875rem;
     padding: .8rem 0 .4rem;
   }
 

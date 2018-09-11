@@ -6,15 +6,17 @@
         <router-view/>
       </keep-alive>
     </div>
+    <home-footer></home-footer>
     <div id="bg"></div>
   </div>
 </template>
 
 <script>
 import HomeHeader from "./components/header/Header";
+import HomeFooter from "./components/footer/Footer";
 export default {
   name: 'App',
-  components: {HomeHeader}
+  components: {HomeFooter, HomeHeader}
 }
 </script>
 
@@ -26,7 +28,6 @@ export default {
 
   #container{
     width: 100%;
-    height: 1500px;
     background-color: rgba(255,255,255,0.8);
   }
 
