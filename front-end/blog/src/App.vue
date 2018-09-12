@@ -28,6 +28,7 @@ export default {
 
   #container{
     width: 100%;
+    min-height: 100vh;
     background-color: rgba(255,255,255,0.8);
   }
 

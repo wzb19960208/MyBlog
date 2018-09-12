@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <p>2018-2020 Ben's Blog - Hosted By Myself</p>
+    <p>Ben's Blog - Hosted By Myself</p>
   </div>
 </template>
 
