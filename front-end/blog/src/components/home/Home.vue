@@ -58,25 +58,21 @@
     width: 100%;
   }
 
-  @media screen and (min-width: 641px){
-    .content{
-      /*height: 1000px;*/
-      width: 12rem;
-      margin: 0 auto;
-      /*background: #666;*/
-    }
-  }
+  /*@media screen and (min-width: 641px){*/
+    /*.content{*/
+      /*width: 12rem;*/
+      /*margin: 0 auto;*/
+    /*}*/
+  /*}*/
 
 
-  @media screen and (max-width: 640px){
+  /*@media screen and (max-width: 640px){*/
 
-    .content{
-      /*min-height: 100vh;*/
-      width: 100%;
-      /*background: #eee;*/
-    }
+    /*.content{*/
+      /*width: 100%;*/
+    /*}*/
 
-  }
+  /*}*/
 
 
 

@@ -2,9 +2,11 @@
   <div id="app">
     <div id="container">
       <home-header></home-header>
-      <keep-alive>
-        <router-view/>
-      </keep-alive>
+      <div class="content">
+        <keep-alive>
+          <router-view/>
+        </keep-alive>
+      </div>
     </div>
     <home-footer></home-footer>
     <div id="bg"></div>
@@ -42,5 +44,21 @@ export default {
     background-size: 100%;
     filter: blur(2px);
     z-index: -1;
+  }
+
+  @media screen and (min-width: 641px){
+    .content{
+      width: 12rem;
+      margin: 0 auto;
+    }
+  }
+
+
+  @media screen and (max-width: 640px){
+
+    .content{
+      width: 100%;
+    }
+
   }
 </style>
